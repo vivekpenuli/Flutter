@@ -11,3 +11,5 @@ main() {
   print("the parse sum is ${a1 + b1}");
 }
 
+Explanation :
+ num.parse("  ") is a type casting function in Dart which converst your string datatype into number .
