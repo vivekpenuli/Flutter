@@ -1,1 +1,7 @@
+main() {
+  int a;
+  var b;
+  print("a is ${a}");
+  print("b is ${b}");
+}
 
