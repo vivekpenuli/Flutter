@@ -13,3 +13,10 @@ main() {
   print("mark is ${mark}");
 }
 
+
+
+Exception=====-------------------------------------------------"
+  String? mark = stdin.readLineSync();
+
+  ---------------------vs--------------------
+  String mark = stdin.readLineSync();     // COMPILE TIME ERROR . because flutter is null safe it do not allow empty value .
