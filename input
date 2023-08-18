@@ -1,1 +1,15 @@
+import "dart:io";
+
+main() {
+  print("Enter your roll no");
+  String? rollno = stdin.readLineSync();
+  print("enter your name");
+  String? name = stdin.readLineSync();
+  print("enter marks");
+  String? mark = stdin.readLineSync();
+
+  print(" name is ${rollno}");
+  print("name is ${name}");
+  print("mark is ${mark}");
+}
 
