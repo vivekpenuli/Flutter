@@ -25,4 +25,4 @@ main() {
 }
 
 output: 124.5 
-num is able to store int and double type value inside of it
+num is able to store int and double type value inside of it //
