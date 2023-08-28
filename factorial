@@ -6,7 +6,7 @@ int factorial(int n) {
 }
 
 main() {
-  int? fact;
+  int? fact;   // Null safety
   var result;
   print("Enter factorial value");
   fact = int.parse(stdin.readLineSync()!);
