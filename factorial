@@ -14,3 +14,10 @@ main() {
   print("The factorial of the num is ${result}");
 }
 
+---------------------------------------------------------------------------------------------------
+int ? factorial(int n)
+{
+
+}
+
+// we can declare function like this to ensure null safety from function 
