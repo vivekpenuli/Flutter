@@ -38,7 +38,7 @@ class Stu {
 }
 
 main() {
-  Stu st = new Stu();
+  Stu st = new Stu();                  // Creating an object of student class
   st.setdetials();
   st.getdetails();
 }
