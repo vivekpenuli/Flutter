@@ -1,1 +1,44 @@
 
+import 'dart:io';
+
+class Stu {
+  var stdno;
+  var name;
+  var mark1;
+  var mark2;
+  var mark3;
+  Stu() {
+    stdno = 0;
+    name = "";
+    mark1 = 0;
+    mark2 = 0;
+    mark3 = 0;
+  }
+  void setdetials() {
+    print("Welcome to Student Managment System ");
+    print("Enter student Id");
+    stdno = int.parse(stdin.readLineSync()!);
+    print(" enter name of string");
+    name = stdin.readLineSync();
+    print(" marks of Sanskrit subject");
+    mark1 = int.parse(stdin.readLineSync()!);
+    print(" marks of English subject");
+    mark2 = int.parse(stdin.readLineSync()!);
+    print(" marks of Math subject");
+    mark3 = int.parse(stdin.readLineSync()!);
+  }
+
+  void getdetails() {
+    print("student Id is  ${stdno}");
+    print("student name is ${name} ");
+    print("mark of sanskrit is ${mark1}");
+    print("mark of English is ${mark2} ");
+    print("mark of Math is ${mark3} ");
+  }
+}
+
+main() {
+  Stu st = new Stu();
+  st.setdetials();
+  st.getdetails();
+}
