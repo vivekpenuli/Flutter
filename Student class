@@ -17,7 +17,7 @@ class Stu {
   void setdetials() {
     print("Welcome to Student Managment System ");
     print("Enter student Id");
-    stdno = int.parse(stdin.readLineSync()!);
+    stdno = int.parse(stdin.readLineSync()!);         // By default input in string format need to type caste into int 
     print(" enter name of string");
     name = stdin.readLineSync();
     print(" marks of Sanskrit subject");
