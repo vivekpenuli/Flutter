@@ -9,7 +9,7 @@ class Stu {
   var mark3;
   Stu() {
     stdno = 0;
-    name = "";
+    name = "";       // Initalizing string filed with ""
     mark1 = 0;
     mark2 = 0;
     mark3 = 0;
