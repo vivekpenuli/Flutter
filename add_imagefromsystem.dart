@@ -33,3 +33,8 @@ class MyApp extends StatelessWidget {
 }
 
 
+--------------------------------------------------------------------------------------------------
+    
+ // Step1: Create a folder name image_Src . where you will upload all asset file
+  assets:
+     - image_Src/
