@@ -37,5 +37,6 @@ class MyApp extends StatelessWidget {
     
  // Step1: Create a folder name image_Src . where you will upload all asset file
   // step 2: fo to pubspec.yml ( uncomment the assest section)
+  // step 3: click on pub get (after uploadeing the folder similar to sync )
   assets:
      - image_Src/
