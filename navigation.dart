@@ -44,3 +44,15 @@ class SecondRoute extends StatelessWidget {
     );
   }
 }
+
+----------------------------------------------------------------------------------------------
+  // Main.dart
+  import 'package:flutter/material.dart';
+import 'navigation/nav.dart';
+void main() {
+  runApp(const MaterialApp(
+    title: 'Navigation Basics',
+    home: FirstRoute(),
+  ));
+}
+
