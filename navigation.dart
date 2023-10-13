@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-void main() {
-  runApp(const MaterialApp(
-    title: 'Navigation Basics',
-    home: FirstRoute(),
-  ));
-}
+
+
 class FirstRoute extends StatelessWidget {
   const FirstRoute({super.key});
   @override
