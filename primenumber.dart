@@ -1,5 +1,5 @@
 
-int prime(int a) {
+int prime(int a) {      // returning priem number
   var count = 0;
   for (int i = 2; i <= 100; i++) {
     if (a % i == 0) count++;
