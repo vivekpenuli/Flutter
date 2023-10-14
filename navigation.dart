@@ -54,7 +54,7 @@ import 'navigation/nav.dart';
 void main() {
   runApp(const MaterialApp(
     title: 'Navigation Basics',
-    home: FirstRoute(),
+    home: FirstRoute(), // calling my widget
   ));
 }
 
