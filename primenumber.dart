@@ -19,7 +19,7 @@ main() {
 
 
 ---------------------------------------------
-  My logic problem :
-17*13 =221 
-  it is a non prime number which is not divisible by top 10 number in sarting .
-  therfore my logic of running the prime loop till 10 is not valid
+//   My logic problem :
+// 17*13 =221 
+//   it is a non prime number which is not divisible by top 10 number in sarting .
+//   therfore my logic of running the prime loop till 10 is not valid
