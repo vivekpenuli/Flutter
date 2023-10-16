@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
 
   // This widget is the root of your application.
   @override
-  _HomeState createState()=>_HomeState();
+  _HomeState createState()=>_HomeState();    
 }
 class _HomeState extends State<Home>{
-  final imageController =TextEditingController();
+  final imageController =TextEditingController();         // taking the input from user . initalizing the controller for that
   String txtimg = "No value Entered";
  void _setImg(){
    setState(() {
