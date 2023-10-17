@@ -28,6 +28,7 @@ class FirstRoute extends StatelessWidget {
 }
 
 class SecondRoute extends StatelessWidget {       // Designiig the second page
+                                                   // Since it is stateless we are not updating the content of the ui
   const SecondRoute({super.key});
 
   @override
