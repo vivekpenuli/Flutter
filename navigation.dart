@@ -27,7 +27,7 @@ class FirstRoute extends StatelessWidget {
   }
 }
 
-class SecondRoute extends StatelessWidget {
+class SecondRoute extends StatelessWidget {       // Designiig the second page
   const SecondRoute({super.key});
 
   @override
