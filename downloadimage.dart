@@ -16,7 +16,7 @@ class _HomeState extends State<Home>{
   String txtimg = "No value Entered";
  void _setImg(){
    setState(() {         // similar like react we also have state of varaible here aslo
-     txtimg = imageController.text;
+     txtimg = imageController.text;         // storing the state of the varaible
    }
    );
  } 
