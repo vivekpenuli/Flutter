@@ -29,7 +29,7 @@ class _HomeState extends State<Home>{
      ),
      body: Column(
        children: [
-         Padding(padding: const EdgeInsets.all(15),
+         Padding(padding: const EdgeInsets.all(15),          // for spacing between two content
          child: TextField(
            decoration: const InputDecoration(labelText: 'Get Image'),
            controller: imageController,
