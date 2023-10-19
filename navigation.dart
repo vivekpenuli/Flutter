@@ -15,7 +15,7 @@ class FirstRoute extends StatelessWidget {
         child: ElevatedButton(              // elevated button in flutter 
           child: const Text('Open route'),             // button content
           onPressed: () {
-            Navigator.push(
+            Navigator.push(            // moving from one page to other
               context,
               MaterialPageRoute(builder: (context) => const SecondRoute()),  // Used to navigate to secound page
                                                                   // Remeember you need to pass the context of the page you are currently in
