@@ -15,7 +15,7 @@ class _HomeState extends State<Home>{
   final imageController =TextEditingController();         // taking the input from user . initalizing the controller for that
   String txtimg = "No value Entered";
  void _setImg(){
-   setState(() {
+   setState(() {         // similar like react we also have state of varaible here aslo
      txtimg = imageController.text;
    }
    );
