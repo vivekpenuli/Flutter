@@ -13,7 +13,7 @@ class SecondScreen extends StatelessWidget {
          mainAxisAlignment: MainAxisAlignment.center,
          children:[
            ElevatedButton(onPressed: (){Navigator.pop(context);}, child:Text("First Screen")),  // Navigator is geneerallly used to navigat between activity
-           ElevatedButton(onPressed: (){Navigator.pushNamed(context,'/third' );}, child: Text("Third Screen")),
+           ElevatedButton(onPressed: (){Navigator.pushNamed(context,'/third' );}, child: Text("Third Screen")),     // context: It is define the current activity address
          ],
        ),
       ),
