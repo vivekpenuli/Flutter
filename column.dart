@@ -28,3 +28,4 @@ class MyColumnApp extends StatelessWidget {
   }
 }
 
+// In this example, we have a simple app that uses a Column widget as the primary layout for arranging three Text widgets vertically. The children of the Column are specified within a list, and they will be displayed one below the other in the order they appear.
