@@ -27,5 +27,5 @@ class MyHomePage extends StatelessWidget {
   }
 }
 
-In this example, we use `MaterialApp` to define the title and theme of the app and set the `MyHomePage` widget as the app's home. The `MyHomePage` widget, in turn, uses a `Scaffold` for its basic structure. This is a simple, but complete, structure for a Flutter app following the Material Design guidelines.
+// In this example, we use `MaterialApp` to define the title and theme of the app and set the `MyHomePage` widget as the app's home. The `MyHomePage` widget, in turn, uses a `Scaffold` for its basic structure. This is a simple, but complete, structure for a Flutter app following the Material Design guidelines.
 
