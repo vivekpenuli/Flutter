@@ -13,7 +13,7 @@ void main() {
   print("1. Celsius to Fahrenheit");
   print("2. Fahrenheit to Celsius");
 
-  int choice = int.parse(stdin.readLineSync() ?? '');
+  int choice = int.parse(stdin.readLineSync() ?? '');  // showcasing null safety feature of dart
 
   if (choice == 1) {
     print("Enter temperature in Celsius: ");
