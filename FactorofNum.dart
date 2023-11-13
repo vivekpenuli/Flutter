@@ -1,3 +1,5 @@
+// The goal is to store all possible factors of a number in a list using dart
+
 import 'dart:io';
 
 List<int> findFactors(int number) {
