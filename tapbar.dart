@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
-          body: TabBarView(
+          body: TabBarView(      // It is flutter widget design to create a Tap bar in flutter
             children: [
               // Content of the 'Home' tab
               Center(child: Text('Home Tab Content')),
