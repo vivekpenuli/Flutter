@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Text('Main Content'),
         ),
-        bottomNavigationBar: BottomAppBar(
+        bottomNavigationBar: BottomAppBar(   // Flutter Widget design to construct a bottom bar
           shape: CircularNotchedRectangle(),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -29,13 +29,11 @@ class MyApp extends StatelessWidget {
               IconButton(
                 icon: Icon(Icons.search),
                 onPressed: () {
-                  // Handle the tap on the search icon
                 },
               ),
               IconButton(
                 icon: Icon(Icons.person),
                 onPressed: () {
-                  // Handle the tap on the person icon
                 },
               ),
             ],
@@ -43,7 +41,6 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            // Handle the tap on the FloatingActionButton
           },
           child: Icon(Icons.add),
         ),
