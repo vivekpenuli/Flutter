@@ -22,3 +22,5 @@ Solution :
 Make int nullable :
 
 int ? a;
+
+//making variable null safe ensure no null pointer exception 
