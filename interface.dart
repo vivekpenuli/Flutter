@@ -2,6 +2,10 @@ class abc{
   void show(){
   
   }
+  /*
+  void show();  // you are not allowwed to define function like this
+  only allowed in abstract class
+  */
 }
 class bcd implements abc{
  void show()
