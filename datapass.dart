@@ -73,3 +73,4 @@ class SecondScreen extends StatelessWidget {
   }
 }
 
+// we can pass data via object by first passing the data into a class then passing that class object to other fragment
